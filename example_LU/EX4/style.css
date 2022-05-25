@@ -4,38 +4,34 @@
     box-sizing: border-box;
 }
 #border{
-    display: flex;
     position: relative;
 }
-.tableone{
+.tableone {
     width: 100px;
-    height: 70px;
+    height: 90px;
     background-color: aquamarine;
     position: absolute;
 }
-.tabletwo{
+.tabletwo {
     width: 80px;
-    height: 70px;
+    height: 80px;
     background-color: aqua;
     position: absolute;
 
 }
-.tablethree{
+.tablethree {
     position: absolute;
     width: 50px;
     height: 70px;
     background-color: bisque;
 }
-/* .tabletwo:hover,
+.tabletwo:hover,
 .tablethree:hover,
 .tableone:hover{
     z-index: 1;
-} */
+} 
 .tabletwo:focus,
 .tablethree:focus,
 .tableone:focus{
     z-index: 1;
-    
-
-
-}
+} 
